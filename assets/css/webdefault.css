@@ -69,16 +69,33 @@ blockquote {
 }
 
 form {
-   text-align: center;
+   padding: 15px;
+   border: #3f4249 solid;
+   border-radius: 10px;
+   box-shadow: 0 5px 10px 0 #3f4249, 0 6px 20px 0 #3f4249;
 }
 
 form p {
    font-weight: 700;
 }
 
+form div {
+   padding-top: 15px;
+   display: flex;
+   justify-content: center;
+}
+
 select,
 input {
    margin-bottom: 8px;
+}
+
+input {
+   width: 250px;
+}
+
+select {
+   width: auto;
 }
 
 .starter-img {
@@ -135,6 +152,10 @@ input {
 
 .req {
    color: red;
+}
+
+.radio {
+   width: auto;
 }
 
 #home {
@@ -226,8 +247,19 @@ input {
    border: none;
 }
 
-#email {
-   width: 250px;
+#reg-form {
+   display: flex;
+   justify-content: center;
+}
+
+#reg-button {
+   background-color: white;
+   color: red;
+   font-size: 20px;
+   box-shadow: 0 5px 10px 0 #3f4249, 0 6px 20px 0 #3f4249;
+   border: red solid;
+   border-radius: 5px;
+   width: 100px;
 }
 
 /* Pseudo */
@@ -248,6 +280,16 @@ nav a:hover {
 
 #vote-link a:active {
    box-shadow: 0.3rem 0.3rem 0.3rem rgb(144, 0, 0) inset;
+}
+
+#reg-button:hover {
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+
+#reg-button:active {
+   box-shadow: none;
 }
 
 /* Media */
