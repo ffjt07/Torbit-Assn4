@@ -61,6 +61,11 @@ td {
    max-width: 600px;
 }
 
+#convention-img img {
+   height: 400px;
+   width: 600px;
+}
+
 #awards {
    width: 100%;
    display: inline-block;
