@@ -26,22 +26,43 @@
       </nav>
    </header>
    <main>
+      <h1>Register Now</h1>
       <form action="thankyou.html" method="GET">
-         <label for="title">Title</label>
-         <label for="first-name">First Name: </label>
-         <label for="last-name">Last Name: </label>
-         <label for="address-line-1">Address Line 1: </label>
+         <label for="per-title">Title:<span class="req">*</span></label>
+         <select name="per-title" id="per-title">
+            <option value="mr">Mr.</option>
+            <option value="ms">Ms.</option>
+            <option value="mrs">Mrs.</option>
+            <option value="none">None</option>
+         </select><br>
+         <label for="first-name">First Name:<span class="req">*</span> </label>
+         <input type="text" required placeholder="First name" title="First name required" autocomplete="on" maxlength="30" pattern="[a-zA-Z]"><br>
+         <label for="last-name">Last Name:<span class="req">*</span> </label>
+         <input type="text" required placeholder="Last name" title="Last name required" autocomplete="on" maxlength="30" pattern="[a-zA-Z]"><br>
+         <label for="address-line-1">Address Line 1:<span class="req">*</span> </label>
+         <input type="text" required placeholder="ex: 123 Main St." title="Address line required" autocomplete="on" maxlength="30" pattern="[a-zA-Z0-9\ \#]"><br>
          <label for="address-line-2">Address Line 2: </label>
-         <label for="city">City: </label>
-         <label for="state">State: </label>
-         <label for="zip-code">Zip Code: </label>
-         <label for="phone">Telephone Number: </label>
-         <label for="email">Email: </label>
-         <label for="position">Position at Company: </label>
-         <label for="company">Company Name: </label>
+         <input type="text" placeholder="ex: Apt 123" title="Apt or Suite #" autocomplete="on" maxlength="30" pattern="[a-zA-Z0-9\ \#]"><br>
+         <label for="city">City:<span class="req">*</span> </label>
+         <input type="text" required placeholder="ex: Denver" title="City required" autocomplete="on" maxlength="30" pattern="[a-zA-Z]"><br>
+         <label for="state">State:<span class="req">*</span> </label>
+         <input type="text" required placeholder="ex: CO" title="Two letter state code required" autocomplete="on" autocapitalize="characters" maxlength="2" pattern="[a-zA-Z]"><br>
+         <label for="zip-code">Zip Code:<span class="req">*</span> </label>
+         <input type="text" required placeholder="ex: 11111" title="Zip code required" autocomplete="on" maxlength="5" pattern="[0-9]{5}"><br>
+         <label for="phone">Telephone Number:<span class="req">*</span> </label>
+         <input type="text"><br>
+         <label for="email">Email:<span class="req">*</span> </label>
+         <input type="text"><br>
+         <label for="position">Position at Company:<span class="req">*</span> </label>
+         <input type="text"><br>
+         <label for="company">Company Name:<span class="req">*</span> </label>
+         <input type="text"><br>
          <label for="session-1">Pokémon Types</label>
+         <input type="text"><br>
          <label for="session-2">Pokémon Evolution</label>
+         <input type="text"><br>
          <label for="session-3">Lengendary Pokémon</label>
+         <input type="text"><br>
       </form>
    </main>
    <footer>

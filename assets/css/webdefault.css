@@ -68,6 +68,15 @@ blockquote {
    text-align: center;
 }
 
+form {
+   text-align: center;
+}
+
+select,
+input {
+   margin-bottom: 8px;
+}
+
 .starter-img {
    height: 100px;
    width: 100px;
@@ -118,6 +127,10 @@ blockquote {
 .keynote img {
    height: 300px;
    width: 200px;
+}
+
+.req {
+   color: red;
 }
 
 #home {
