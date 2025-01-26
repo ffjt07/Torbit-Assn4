@@ -71,11 +71,22 @@ iframe {
    text-shadow: 1px 1px 1px #3f4249;
 }
 
+.flex-sect {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
 .menu {
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 15px;
+}
+
+.menu img {
+   height: 100px;
+   width: 100px;
 }
 
 .day {
@@ -102,6 +113,8 @@ iframe {
 }
 
 #convention-img img {
+   display: flex;
+   flex-direction: column;
    height: 400px;
    width: 600px;
 }
@@ -153,17 +166,6 @@ iframe {
    justify-content: center;
 }
 
-#menus {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-}
-
-#menus div img {
-   height: 100px;
-   width: 100px;
-}
-
 #pricing {
    text-align: center;
 }
@@ -199,6 +201,10 @@ nav a:hover {
       font-size: 0.75rem;
       justify-content: center;
    }
+
+   #convention-img img {
+      width: 640px;
+   }
 }
 
 @media screen and (max-width: 640px) {
@@ -215,7 +221,12 @@ nav a:hover {
       text-shadow: none;
    }
 
-   #menus {
+   #convention-img img {
+      height: auto;
+      width: 100%;
+   }
+
+   .flex-sect {
       flex-direction: column;
    }
 }
