@@ -262,6 +262,16 @@ select {
    width: 100px;
 }
 
+#thank-you {
+   display: flex;
+   justify-content: center;
+}
+
+#thank-you img {
+   height: auto;
+   width: 600px;
+}
+
 /* Pseudo */
 nav a:hover {
    border-radius: 10px;
@@ -323,6 +333,7 @@ nav a:hover {
       font-weight: 550;
       font-size: 0.75rem;
    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -353,6 +364,10 @@ nav a:hover {
 
    #convention-img img {
       height: auto;
+      width: 100%;
+   }
+
+   #thank-you img {
       width: 100%;
    }
 
