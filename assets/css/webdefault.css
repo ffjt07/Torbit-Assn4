@@ -42,7 +42,7 @@ table {
    margin: 0 auto;
 }
 
-table, td {
+table, th, td {
    border: 1px solid;
 }
 
@@ -190,6 +190,10 @@ blockquote {
    padding: 0;
 }
 
+#schedule td {
+   border: none;
+}
+
 /* Pseudo */
 nav a:hover {
    border-radius: 10px;
@@ -226,8 +230,24 @@ nav a:hover {
       width: 350px;
    }
 
+   .sess-title {
+      max-width: 225px;
+   }
+
    #convention-img img {
       width: 640px;
+   }
+
+   #schedule {
+      font-size: 0.6rem;
+   }
+
+   #schedule td {
+      margin: 3px;
+      padding: 3px;
+      text-align: center;
+      font-weight: 550;
+      font-size: 0.75rem;
    }
 }
 
@@ -249,12 +269,17 @@ nav a:hover {
       width: 100%;
    }
 
+   .flex-sect {
+      flex-direction: column;
+   }
+
+   .sess-title {
+      max-width: 200px;
+   }
+
    #convention-img img {
       height: auto;
       width: 100%;
    }
 
-   .flex-sect {
-      flex-direction: column;
-   }
 }
