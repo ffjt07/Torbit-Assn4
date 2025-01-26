@@ -72,6 +72,10 @@ form {
    text-align: center;
 }
 
+form p {
+   font-weight: 700;
+}
+
 select,
 input {
    margin-bottom: 8px;
@@ -220,6 +224,10 @@ input {
 
 #schedule td {
    border: none;
+}
+
+#email {
+   width: 250px;
 }
 
 /* Pseudo */
