@@ -1,10 +1,4 @@
-/* Root */
-
-
-header {
-   padding: var(--main-pad);
-}
-
+/* Elements */
 footer {
    padding-top: 15px;
    width: 100%;
@@ -98,6 +92,7 @@ select {
    width: auto;
 }
 
+/* Classes */
 .starter-img {
    height: 100px;
    width: 100px;
@@ -158,6 +153,7 @@ select {
    width: auto;
 }
 
+/* IDs */
 #home {
    display: flex;
    flex-direction: column;
