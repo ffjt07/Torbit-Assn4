@@ -14,7 +14,9 @@ footer address {
 }
 
 nav {
+   padding-top: 5px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-size: 1.25rem;
@@ -24,7 +26,11 @@ nav {
 nav a {
    color: grey;
    text-decoration: none;
+   padding: 5px;
+}
 
+main h1 {
+   text-align: center;
 }
 
 section {
@@ -49,9 +55,19 @@ td {
    padding: 10px;
 }
 
+iframe {
+   padding-bottom: 15px;
+}
+
 .starter-img {
    height: 100px;
    width: 100px;
+}
+
+.act-item a {
+   text-decoration: none;
+   color: gray;
+   text-shadow: 1px 1px 1px #3f4249;
 }
 
 #regis {
@@ -96,6 +112,35 @@ td {
    box-shadow: 0.1rem 0.1rem 0.1rem rgb(144, 0, 0);
 }
 
+#act-list {
+   display: block;
+   list-style: none;
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+#act-list li {
+   padding: 8px;
+}
+
+#act-video-sect {
+   display: flex;
+   justify-content: center;
+}
+
+/* Pseudo */
+nav a:hover {
+   border-radius: 10px;
+   background-color: red;
+   color: white;
+}
+
+.act-item a:hover {
+   color: #3f4249;
+   text-shadow: none;
+}
+
 #vote-link a:hover {
    box-shadow: none;
 }
@@ -103,3 +148,4 @@ td {
 #vote-link a:active {
    box-shadow: 0.3rem 0.3rem 0.3rem rgb(144, 0, 0) inset;
 }
+
