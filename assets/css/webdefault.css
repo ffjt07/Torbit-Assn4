@@ -60,6 +60,14 @@ iframe {
    padding-bottom: 15px;
 }
 
+blockquote {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 450px;
+   text-align: center;
+}
+
 .starter-img {
    height: 100px;
    width: 100px;
@@ -209,6 +217,15 @@ nav a:hover {
       justify-content: center;
    }
 
+   blockquote {
+      width: fit-content;
+   }
+
+   .keynote {
+      padding: 5px;
+      width: 350px;
+   }
+
    #convention-img img {
       width: 640px;
    }
@@ -226,6 +243,10 @@ nav a:hover {
 
    .act-item a {
       text-shadow: none;
+   }
+
+   .keynote {
+      width: 100%;
    }
 
    #convention-img img {
