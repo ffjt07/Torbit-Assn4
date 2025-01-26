@@ -77,7 +77,8 @@ iframe {
    justify-content: center;
 }
 
-.menu {
+.menu,
+.keynote {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -89,7 +90,8 @@ iframe {
    width: 100px;
 }
 
-.day {
+.day,
+.key-name {
    padding-top: 0;
    margin-top: 0;
    font-weight: 600;
@@ -103,6 +105,11 @@ iframe {
 .meal p {
    margin: 0;
    padding: 0;
+}
+
+.keynote img {
+   height: 300px;
+   width: 200px;
 }
 
 #regis {
